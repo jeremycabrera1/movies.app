@@ -1,0 +1,9 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+    {% block content%}
+    <h1> My Favorite Movie genre is Sci-fi!</h1>
+    {% load static %}
+    <img style="width:100px;" src="{% static 'movies/me.jpeg' %}" alt="About Me Picture">
+    {% endblock %}
+</html>
